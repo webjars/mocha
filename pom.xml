@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>mocha</artifactId>
-    <version>1.17.1</version>
+    <version>1.17.2-SNAPSHOT</version>
     <name>Mocha</name>
     <description>WebJar for Mocha</description>
     <url>http://webjars.org</url>
@@ -28,7 +28,7 @@
         <url>http://github.com/webjars/mocha</url>
         <connection>scm:git:https://github.com/webjars/mocha.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/mocha.git</developerConnection>
-        <tag>mocha-1.17.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
