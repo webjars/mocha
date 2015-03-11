@@ -89,14 +89,14 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="unzip archive" />
-                                <unzip src="${project.build.directory}/mocha.zip" dest="${project.build.directory}" />
-                                <echo message="moving resources" />
-                                <move file="${extractDir}/lib" todir="${destDir}" />
-                                <move file="${extractDir}/package.json" todir="${destDir}" />
-                                <move file="${extractDir}/index.js" todir="${destDir}" />
-                                <move file="${extractDir}/mocha.js" todir="${destDir}" />
-                                <move file="${extractDir}/mocha.css" todir="${destDir}" />
+                                <echo message="unzip archive"/>
+                                <unzip src="${project.build.directory}/mocha.zip" dest="${project.build.directory}"/>
+                                <echo message="moving resources"/>
+                                <move file="${extractDir}/lib" todir="${destDir}"/>
+                                <move file="${extractDir}/package.json" todir="${destDir}"/>
+                                <move file="${extractDir}/index.js" todir="${destDir}"/>
+                                <move file="${extractDir}/mocha.js" todir="${destDir}"/>
+                                <move file="${extractDir}/mocha.css" todir="${destDir}"/>
                             </target>
                         </configuration>
                     </execution>
